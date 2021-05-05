@@ -18,6 +18,8 @@
 		10241A1226434CB900DCFD6F /* OverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10241A1126434CB900DCFD6F /* OverlayViewController.swift */; };
 		10339F4B26434EB400A84D5E /* wood.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10339F4A26434EB400A84D5E /* wood.jpeg */; };
 		10339F4D26434EBD00A84D5E /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10339F4C26434EBD00A84D5E /* earth.jpg */; };
+		10339F4F26434F8700A84D5E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 10339F4E26434F8700A84D5E /* art.scnassets */; };
+		10339F5226434FBF00A84D5E /* ApplyingForce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10339F5126434FBF00A84D5E /* ApplyingForce.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		10241A1126434CB900DCFD6F /* OverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayViewController.swift; sourceTree = "<group>"; };
 		10339F4A26434EB400A84D5E /* wood.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpeg; sourceTree = "<group>"; };
 		10339F4C26434EBD00A84D5E /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		10339F4E26434F8700A84D5E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		10339F5126434FBF00A84D5E /* ApplyingForce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyingForce.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 		102419F426434A0D00DCFD6F /* ArKitProjects */ = {
 			isa = PBXGroup;
 			children = (
+				10339F5026434FAE00A84D5E /* ApplyingForce */,
+				10339F4E26434F8700A84D5E /* art.scnassets */,
 				10241A0E26434C2C00DCFD6F /* AddingPlane */,
 				102419F526434A0D00DCFD6F /* AppDelegate.swift */,
 				102419F726434A0D00DCFD6F /* SceneDelegate.swift */,
@@ -88,6 +94,14 @@
 				10241A1126434CB900DCFD6F /* OverlayViewController.swift */,
 			);
 			path = AddingPlane;
+			sourceTree = "<group>";
+		};
+		10339F5026434FAE00A84D5E /* ApplyingForce */ = {
+			isa = PBXGroup;
+			children = (
+				10339F5126434FBF00A84D5E /* ApplyingForce.swift */,
+			);
+			path = ApplyingForce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +164,7 @@
 				10339F4B26434EB400A84D5E /* wood.jpeg in Resources */,
 				10241A0226434A1300DCFD6F /* LaunchScreen.storyboard in Resources */,
 				10339F4D26434EBD00A84D5E /* earth.jpg in Resources */,
+				10339F4F26434F8700A84D5E /* art.scnassets in Resources */,
 				102419FF26434A1300DCFD6F /* Assets.xcassets in Resources */,
 				10241A0D26434C2400DCFD6F /* overlay_grid.png in Resources */,
 				102419FD26434A0D00DCFD6F /* Main.storyboard in Resources */,
@@ -166,6 +181,7 @@
 				102419FA26434A0D00DCFD6F /* ViewController.swift in Sources */,
 				102419F626434A0D00DCFD6F /* AppDelegate.swift in Sources */,
 				10241A1226434CB900DCFD6F /* OverlayViewController.swift in Sources */,
+				10339F5226434FBF00A84D5E /* ApplyingForce.swift in Sources */,
 				102419F826434A0D00DCFD6F /* SceneDelegate.swift in Sources */,
 				10241A1026434C4700DCFD6F /* OverlayPlane.swift in Sources */,
 			);
