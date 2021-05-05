@@ -13,6 +13,9 @@
 		102419FD26434A0D00DCFD6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102419FB26434A0D00DCFD6F /* Main.storyboard */; };
 		102419FF26434A1300DCFD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102419FE26434A1300DCFD6F /* Assets.xcassets */; };
 		10241A0226434A1300DCFD6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10241A0026434A1300DCFD6F /* LaunchScreen.storyboard */; };
+		10241A0D26434C2400DCFD6F /* overlay_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 10241A0C26434C2300DCFD6F /* overlay_grid.png */; };
+		10241A1026434C4700DCFD6F /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10241A0F26434C4700DCFD6F /* OverlayPlane.swift */; };
+		10241A1226434CB900DCFD6F /* OverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10241A1126434CB900DCFD6F /* OverlayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		102419FE26434A1300DCFD6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10241A0126434A1300DCFD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10241A0326434A1300DCFD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10241A0C26434C2300DCFD6F /* overlay_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_grid.png; sourceTree = "<group>"; };
+		10241A0F26434C4700DCFD6F /* OverlayPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
+		10241A1126434CB900DCFD6F /* OverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		102419F426434A0D00DCFD6F /* ArKitProjects */ = {
 			isa = PBXGroup;
 			children = (
+				10241A0E26434C2C00DCFD6F /* AddingPlane */,
 				102419F526434A0D00DCFD6F /* AppDelegate.swift */,
 				102419F726434A0D00DCFD6F /* SceneDelegate.swift */,
 				102419F926434A0D00DCFD6F /* ViewController.swift */,
@@ -63,8 +70,18 @@
 				102419FE26434A1300DCFD6F /* Assets.xcassets */,
 				10241A0026434A1300DCFD6F /* LaunchScreen.storyboard */,
 				10241A0326434A1300DCFD6F /* Info.plist */,
+				10241A0C26434C2300DCFD6F /* overlay_grid.png */,
 			);
 			path = ArKitProjects;
+			sourceTree = "<group>";
+		};
+		10241A0E26434C2C00DCFD6F /* AddingPlane */ = {
+			isa = PBXGroup;
+			children = (
+				10241A0F26434C4700DCFD6F /* OverlayPlane.swift */,
+				10241A1126434CB900DCFD6F /* OverlayViewController.swift */,
+			);
+			path = AddingPlane;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +143,7 @@
 			files = (
 				10241A0226434A1300DCFD6F /* LaunchScreen.storyboard in Resources */,
 				102419FF26434A1300DCFD6F /* Assets.xcassets in Resources */,
+				10241A0D26434C2400DCFD6F /* overlay_grid.png in Resources */,
 				102419FD26434A0D00DCFD6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +157,9 @@
 			files = (
 				102419FA26434A0D00DCFD6F /* ViewController.swift in Sources */,
 				102419F626434A0D00DCFD6F /* AppDelegate.swift in Sources */,
+				10241A1226434CB900DCFD6F /* OverlayViewController.swift in Sources */,
 				102419F826434A0D00DCFD6F /* SceneDelegate.swift in Sources */,
+				10241A1026434C4700DCFD6F /* OverlayPlane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
