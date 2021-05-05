@@ -9,9 +9,10 @@ import UIKit
 import SceneKit
 import ARKit
 
+
 class ViewController: UIViewController, ARSCNViewDelegate {
 
-    private var sceneView: ARSCNView!
+    @IBOutlet var sceneView: ARSCNView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,18 +29,25 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Set the scene to the view
         sceneView.scene = scene
         
-        let box = SCNBox(width: 0.3, height: 0.3, length: 0.3, chamferRadius: 0)
+        let box = SCNBox(width: 0.2, height: 0.2, length: 0.2, chamferRadius: 0)
         
         let material = SCNMaterial()
-        material.diffuse.contents = UIColor.red
-        
-        box.materials = [material]
+        //material.diffuse.contents = UIColor.blue
+        material.diffuse.contents = UIImage(named: "wood.jpeg")
         
         let boxNode = SCNNode(geometry: box)
         boxNode.position = SCNVector3(0, 0, -0.5)
+        boxNode.geometry?.materials = [material]
+        
+        let sphere = SCNSphere(radius: 0.3)
+        //sphere.firstMaterial?.diffuse.contents = UIColor.green
+        sphere.firstMaterial?.diffuse.contents = UIImage(named: "earth.jpg")
+        
+        let sphereNode = SCNNode(geometry: sphere)
+        sphereNode.position = SCNVector3(0.5, 0, -0.5)
         
         self.sceneView.scene.rootNode.addChildNode(boxNode)
-        
+        self.sceneView.scene.rootNode.addChildNode(sphereNode)
     }
     
     override func viewWillAppear(_ animated: Bool) {

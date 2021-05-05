@@ -16,6 +16,8 @@
 		10241A0D26434C2400DCFD6F /* overlay_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 10241A0C26434C2300DCFD6F /* overlay_grid.png */; };
 		10241A1026434C4700DCFD6F /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10241A0F26434C4700DCFD6F /* OverlayPlane.swift */; };
 		10241A1226434CB900DCFD6F /* OverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10241A1126434CB900DCFD6F /* OverlayViewController.swift */; };
+		10339F4B26434EB400A84D5E /* wood.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10339F4A26434EB400A84D5E /* wood.jpeg */; };
+		10339F4D26434EBD00A84D5E /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10339F4C26434EBD00A84D5E /* earth.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		10241A0C26434C2300DCFD6F /* overlay_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_grid.png; sourceTree = "<group>"; };
 		10241A0F26434C4700DCFD6F /* OverlayPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
 		10241A1126434CB900DCFD6F /* OverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayViewController.swift; sourceTree = "<group>"; };
+		10339F4A26434EB400A84D5E /* wood.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpeg; sourceTree = "<group>"; };
+		10339F4C26434EBD00A84D5E /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				10241A0026434A1300DCFD6F /* LaunchScreen.storyboard */,
 				10241A0326434A1300DCFD6F /* Info.plist */,
 				10241A0C26434C2300DCFD6F /* overlay_grid.png */,
+				10339F4A26434EB400A84D5E /* wood.jpeg */,
+				10339F4C26434EBD00A84D5E /* earth.jpg */,
 			);
 			path = ArKitProjects;
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10339F4B26434EB400A84D5E /* wood.jpeg in Resources */,
 				10241A0226434A1300DCFD6F /* LaunchScreen.storyboard in Resources */,
+				10339F4D26434EBD00A84D5E /* earth.jpg in Resources */,
 				102419FF26434A1300DCFD6F /* Assets.xcassets in Resources */,
 				10241A0D26434C2400DCFD6F /* overlay_grid.png in Resources */,
 				102419FD26434A0D00DCFD6F /* Main.storyboard in Resources */,
