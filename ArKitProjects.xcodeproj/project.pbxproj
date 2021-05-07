@@ -43,6 +43,7 @@
 		1044D9EF2645841200C157E9 /* TargetShooting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044D9EE2645841200C157E9 /* TargetShooting.swift */; };
 		1044D9F22645848500C157E9 /* Occlusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044D9F12645848500C157E9 /* Occlusion.swift */; };
 		1044D9F42645849100C157E9 /* fish.dae in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9F32645849100C157E9 /* fish.dae */; };
+		1044D9F7264584E300C157E9 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044D9F6264584E300C157E9 /* Light.swift */; };
 		10513D0E2645760B006B53AB /* ArkitCoreMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10513D0D2645760B006B53AB /* ArkitCoreMLViewController.swift */; };
 		10513D112645763C006B53AB /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 10513D102645763C006B53AB /* Resnet50.mlmodel */; };
 		105B344C26457B98009A8315 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B344B26457B98009A8315 /* Plane.swift */; };
@@ -93,6 +94,7 @@
 		1044D9EE2645841200C157E9 /* TargetShooting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetShooting.swift; sourceTree = "<group>"; };
 		1044D9F12645848500C157E9 /* Occlusion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Occlusion.swift; sourceTree = "<group>"; };
 		1044D9F32645849100C157E9 /* fish.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = fish.dae; sourceTree = "<group>"; };
+		1044D9F6264584E300C157E9 /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
 		10513D0D2645760B006B53AB /* ArkitCoreMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkitCoreMLViewController.swift; sourceTree = "<group>"; };
 		10513D102645763C006B53AB /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		105B344B26457B98009A8315 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 		1035296C26445F5B00600F52 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1044D9F5264584D800C157E9 /* Light */,
 				1044D9F02645847900C157E9 /* Occlusion */,
 				1044D9ED2645840400C157E9 /* TargetShooting */,
 				1044D9DC2645830800C157E9 /* Arkit ADS */,
@@ -274,6 +277,14 @@
 				1044D9F12645848500C157E9 /* Occlusion.swift */,
 			);
 			path = Occlusion;
+			sourceTree = "<group>";
+		};
+		1044D9F5264584D800C157E9 /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				1044D9F6264584E300C157E9 /* Light.swift */,
+			);
+			path = Light;
 			sourceTree = "<group>";
 		};
 		10513D0A26456D2E006B53AB /* Storyboards */ = {
@@ -444,6 +455,7 @@
 				10513D0E2645760B006B53AB /* ArkitCoreMLViewController.swift in Sources */,
 				1044D9EF2645841200C157E9 /* TargetShooting.swift in Sources */,
 				102419FA26434A0D00DCFD6F /* MainViewController.swift in Sources */,
+				1044D9F7264584E300C157E9 /* Light.swift in Sources */,
 				102419F626434A0D00DCFD6F /* AppDelegate.swift in Sources */,
 				105B344F26457BF2009A8315 /* Portal.swift in Sources */,
 				10241A1226434CB900DCFD6F /* OverlayViewController.swift in Sources */,
