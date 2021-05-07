@@ -21,6 +21,8 @@
 		103529742644642E00600F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 103529732644642E00600F52 /* Main.storyboard */; };
 		10513D0E2645760B006B53AB /* ArkitCoreMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10513D0D2645760B006B53AB /* ArkitCoreMLViewController.swift */; };
 		10513D112645763C006B53AB /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 10513D102645763C006B53AB /* Resnet50.mlmodel */; };
+		105B344C26457B98009A8315 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B344B26457B98009A8315 /* Plane.swift */; };
+		105B344F26457BF2009A8315 /* Portal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B344E26457BF2009A8315 /* Portal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		103529732644642E00600F52 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		10513D0D2645760B006B53AB /* ArkitCoreMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkitCoreMLViewController.swift; sourceTree = "<group>"; };
 		10513D102645763C006B53AB /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		105B344B26457B98009A8315 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		105B344E26457BF2009A8315 /* Portal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 		1035296C26445F5B00600F52 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				105B344D26457BEA009A8315 /* Portal */,
 				10513D122645781D006B53AB /* Adding Occulison */,
 				10513D0C264575E9006B53AB /* Arkit CoreML */,
 				10513D0B264575C8006B53AB /* Adding Multiple Item */,
@@ -118,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				103529702644601D00600F52 /* Extension.swift */,
+				105B344B26457B98009A8315 /* Plane.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -169,6 +175,14 @@
 			children = (
 			);
 			path = "Adding Occulison";
+			sourceTree = "<group>";
+		};
+		105B344D26457BEA009A8315 /* Portal */ = {
+			isa = PBXGroup;
+			children = (
+				105B344E26457BF2009A8315 /* Portal.swift */,
+			);
+			path = Portal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,11 +261,13 @@
 				10513D0E2645760B006B53AB /* ArkitCoreMLViewController.swift in Sources */,
 				102419FA26434A0D00DCFD6F /* MainViewController.swift in Sources */,
 				102419F626434A0D00DCFD6F /* AppDelegate.swift in Sources */,
+				105B344F26457BF2009A8315 /* Portal.swift in Sources */,
 				10241A1226434CB900DCFD6F /* OverlayViewController.swift in Sources */,
 				10339F5226434FBF00A84D5E /* ApplyingForce.swift in Sources */,
 				102419F826434A0D00DCFD6F /* SceneDelegate.swift in Sources */,
 				10241A1026434C4700DCFD6F /* OverlayPlane.swift in Sources */,
 				103529712644601D00600F52 /* Extension.swift in Sources */,
+				105B344C26457B98009A8315 /* Plane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

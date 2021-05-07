@@ -26,7 +26,7 @@ class MainViewController: UIViewController {
         TableViewData(name: "Light", viewController: AddingMultipleItemViewController()),
         TableViewData(name: "Arkit CoreMl", viewController: ArkitCoreMLViewController()),
         TableViewData(name: "Occlusion", viewController: AddingMultipleItemViewController()),
-        TableViewData(name: "Portal", viewController: AddingMultipleItemViewController()),
+        TableViewData(name: "Portal", viewController: PortalViewController()),
         TableViewData(name: "Playing Video", viewController: AddingMultipleItemViewController()),
         TableViewData(name: "Image Detection", viewController: AddingMultipleItemViewController()),
         TableViewData(name: "Scaling Rotating", viewController: AddingMultipleItemViewController()),
