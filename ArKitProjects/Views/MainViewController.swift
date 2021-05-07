@@ -31,7 +31,7 @@ class MainViewController: UIViewController {
         TableViewData(name: "Image Detection", viewController: AddingMultipleItemViewController()),
         TableViewData(name: "Scaling Rotating", viewController: AddingMultipleItemViewController()),
         TableViewData(name: "Ar Kit Advertising", viewController: AddingMultipleItemViewController()),
-        TableViewData(name: "Downloading Model", viewController: AddingMultipleItemViewController()),
+        TableViewData(name: "Downloading Model", viewController: DownloadingModelViewController()),
         TableViewData(name: "Image Tracking", viewController: AddingMultipleItemViewController()),
         TableViewData(name: "Persistance", viewController: AddingMultipleItemViewController()),
         TableViewData(name: "Reflections", viewController: AddingMultipleItemViewController()),
