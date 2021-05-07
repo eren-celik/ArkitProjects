@@ -23,6 +23,9 @@
 		10513D112645763C006B53AB /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 10513D102645763C006B53AB /* Resnet50.mlmodel */; };
 		105B344C26457B98009A8315 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B344B26457B98009A8315 /* Plane.swift */; };
 		105B344F26457BF2009A8315 /* Portal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B344E26457BF2009A8315 /* Portal.swift */; };
+		105B345326457C87009A8315 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B345226457C87009A8315 /* MBProgressHUD.m */; };
+		105B345A26457CFE009A8315 /* ImageDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B345926457CFE009A8315 /* ImageDetection.swift */; };
+		105B345D26457D98009A8315 /* MeasuringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B345C26457D98009A8315 /* MeasuringApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,11 @@
 		10513D102645763C006B53AB /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		105B344B26457B98009A8315 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 		105B344E26457BF2009A8315 /* Portal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portal.swift; sourceTree = "<group>"; };
+		105B345026457C86009A8315 /* ArKitProjects-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArKitProjects-Bridging-Header.h"; sourceTree = "<group>"; };
+		105B345126457C87009A8315 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		105B345226457C87009A8315 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		105B345926457CFE009A8315 /* ImageDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetection.swift; sourceTree = "<group>"; };
+		105B345C26457D98009A8315 /* MeasuringApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasuringApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,8 @@
 		1035296C26445F5B00600F52 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				105B345B26457D85009A8315 /* Measuring App */,
+				105B345826457CF2009A8315 /* Image Detection */,
 				105B344D26457BEA009A8315 /* Portal */,
 				10513D122645781D006B53AB /* Adding Occulison */,
 				10513D0C264575E9006B53AB /* Arkit CoreML */,
@@ -122,8 +132,11 @@
 		1035296D26445F6400600F52 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				105B345126457C87009A8315 /* MBProgressHUD.h */,
+				105B345226457C87009A8315 /* MBProgressHUD.m */,
 				103529702644601D00600F52 /* Extension.swift */,
 				105B344B26457B98009A8315 /* Plane.swift */,
+				105B345026457C86009A8315 /* ArKitProjects-Bridging-Header.h */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -185,6 +198,22 @@
 			path = Portal;
 			sourceTree = "<group>";
 		};
+		105B345826457CF2009A8315 /* Image Detection */ = {
+			isa = PBXGroup;
+			children = (
+				105B345926457CFE009A8315 /* ImageDetection.swift */,
+			);
+			path = "Image Detection";
+			sourceTree = "<group>";
+		};
+		105B345B26457D85009A8315 /* Measuring App */ = {
+			isa = PBXGroup;
+			children = (
+				105B345C26457D98009A8315 /* MeasuringApp.swift */,
+			);
+			path = "Measuring App";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -216,6 +245,7 @@
 				TargetAttributes = {
 					102419F126434A0D00DCFD6F = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -265,7 +295,10 @@
 				10241A1226434CB900DCFD6F /* OverlayViewController.swift in Sources */,
 				10339F5226434FBF00A84D5E /* ApplyingForce.swift in Sources */,
 				102419F826434A0D00DCFD6F /* SceneDelegate.swift in Sources */,
+				105B345326457C87009A8315 /* MBProgressHUD.m in Sources */,
 				10241A1026434C4700DCFD6F /* OverlayPlane.swift in Sources */,
+				105B345D26457D98009A8315 /* MeasuringApp.swift in Sources */,
+				105B345A26457CFE009A8315 /* ImageDetection.swift in Sources */,
 				103529712644601D00600F52 /* Extension.swift in Sources */,
 				105B344C26457B98009A8315 /* Plane.swift in Sources */,
 			);
@@ -406,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 827AKX2FXT;
 				INFOPLIST_FILE = ArKitProjects/Info.plist;
@@ -416,6 +450,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.erencelik.ArKitProjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArKitProjects/Helper/ArKitProjects-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -426,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 827AKX2FXT;
 				INFOPLIST_FILE = ArKitProjects/Info.plist;
@@ -436,6 +473,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.erencelik.ArKitProjects;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ArKitProjects/Helper/ArKitProjects-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
