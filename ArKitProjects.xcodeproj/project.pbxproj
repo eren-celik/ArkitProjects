@@ -40,6 +40,7 @@
 		1044D9E82645832300C157E9 /* GooglePixel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9E22645832300C157E9 /* GooglePixel.png */; };
 		1044D9E92645832300C157E9 /* pixel-screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9E32645832300C157E9 /* pixel-screenshot.png */; };
 		1044D9EA2645832300C157E9 /* Google-Pixel-XL-Black-Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9E42645832300C157E9 /* Google-Pixel-XL-Black-Back.png */; };
+		1044D9EF2645841200C157E9 /* TargetShooting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044D9EE2645841200C157E9 /* TargetShooting.swift */; };
 		10513D0E2645760B006B53AB /* ArkitCoreMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10513D0D2645760B006B53AB /* ArkitCoreMLViewController.swift */; };
 		10513D112645763C006B53AB /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 10513D102645763C006B53AB /* Resnet50.mlmodel */; };
 		105B344C26457B98009A8315 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B344B26457B98009A8315 /* Plane.swift */; };
@@ -87,6 +88,7 @@
 		1044D9E22645832300C157E9 /* GooglePixel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GooglePixel.png; sourceTree = "<group>"; };
 		1044D9E32645832300C157E9 /* pixel-screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pixel-screenshot.png"; sourceTree = "<group>"; };
 		1044D9E42645832300C157E9 /* Google-Pixel-XL-Black-Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google-Pixel-XL-Black-Back.png"; sourceTree = "<group>"; };
+		1044D9EE2645841200C157E9 /* TargetShooting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetShooting.swift; sourceTree = "<group>"; };
 		10513D0D2645760B006B53AB /* ArkitCoreMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkitCoreMLViewController.swift; sourceTree = "<group>"; };
 		10513D102645763C006B53AB /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		105B344B26457B98009A8315 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		1035296C26445F5B00600F52 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1044D9ED2645840400C157E9 /* TargetShooting */,
 				1044D9DC2645830800C157E9 /* Arkit ADS */,
 				1044D9D9264582A000C157E9 /* Furniture App */,
 				1044D9C02645815700C157E9 /* Launch Missle */,
@@ -183,29 +186,29 @@
 		1035296D26445F6400600F52 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				105B345026457C86009A8315 /* ArKitProjects-Bridging-Header.h */,
+				105B346126457E1B009A8315 /* big_buck_bunny.mp4 */,
+				1044D9D32645829700C157E9 /* chair.dae */,
+				103529702644601D00600F52 /* Extension.swift */,
+				1044D9C72645818000C157E9 /* fire.scnp */,
 				1044D9E42645832300C157E9 /* Google-Pixel-XL-Black-Back.png */,
 				1044D9E22645832300C157E9 /* GooglePixel.png */,
+				105B345126457C87009A8315 /* MBProgressHUD.h */,
+				105B345226457C87009A8315 /* MBProgressHUD.m */,
+				1044D9C82645818000C157E9 /* missile-1.scn */,
+				1044D9D12645819600C157E9 /* Missile.swift */,
+				1044D9C52645818000C157E9 /* missle-texture.png */,
+				1044D9D42645829700C157E9 /* Neil Woo03.jpg */,
+				1044D9D52645829800C157E9 /* NeilFabricPlain008.jpg */,
 				1044D9E12645832300C157E9 /* Phone_01.mtl */,
 				1044D9E02645832300C157E9 /* Phone_01.scn */,
 				1044D9E32645832300C157E9 /* pixel-screenshot.png */,
-				1044D9DF2645832300C157E9 /* texture.jpg */,
-				1044D9D32645829700C157E9 /* chair.dae */,
-				1044D9D42645829700C157E9 /* Neil Woo03.jpg */,
-				1044D9D52645829800C157E9 /* NeilFabricPlain008.jpg */,
-				1044D9C72645818000C157E9 /* fire.scnp */,
-				1044D9C82645818000C157E9 /* missile-1.scn */,
-				1044D9C52645818000C157E9 /* missle-texture.png */,
+				105B344B26457B98009A8315 /* Plane.swift */,
 				1044D9C42645818000C157E9 /* smoke.png */,
 				1044D9C62645818000C157E9 /* smoke.scnp */,
 				1044D9C92645818100C157E9 /* spark.png */,
 				1044D9C32645818000C157E9 /* texture-1.png */,
-				105B346126457E1B009A8315 /* big_buck_bunny.mp4 */,
-				105B345126457C87009A8315 /* MBProgressHUD.h */,
-				105B345226457C87009A8315 /* MBProgressHUD.m */,
-				103529702644601D00600F52 /* Extension.swift */,
-				105B344B26457B98009A8315 /* Plane.swift */,
-				105B345026457C86009A8315 /* ArKitProjects-Bridging-Header.h */,
-				1044D9D12645819600C157E9 /* Missile.swift */,
+				1044D9DF2645832300C157E9 /* texture.jpg */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -249,6 +252,14 @@
 				1044D9DD2645831100C157E9 /* ARADS.swift */,
 			);
 			path = "Arkit ADS";
+			sourceTree = "<group>";
+		};
+		1044D9ED2645840400C157E9 /* TargetShooting */ = {
+			isa = PBXGroup;
+			children = (
+				1044D9EE2645841200C157E9 /* TargetShooting.swift */,
+			);
+			path = TargetShooting;
 			sourceTree = "<group>";
 		};
 		10513D0A26456D2E006B53AB /* Storyboards */ = {
@@ -415,6 +426,7 @@
 				10513D112645763C006B53AB /* Resnet50.mlmodel in Sources */,
 				1035296F26445F9D00600F52 /* AddingMultipleItem.swift in Sources */,
 				10513D0E2645760B006B53AB /* ArkitCoreMLViewController.swift in Sources */,
+				1044D9EF2645841200C157E9 /* TargetShooting.swift in Sources */,
 				102419FA26434A0D00DCFD6F /* MainViewController.swift in Sources */,
 				102419F626434A0D00DCFD6F /* AppDelegate.swift in Sources */,
 				105B344F26457BF2009A8315 /* Portal.swift in Sources */,
