@@ -29,6 +29,17 @@
 		1044D9CF2645818100C157E9 /* missile-1.scn in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9C82645818000C157E9 /* missile-1.scn */; };
 		1044D9D02645818100C157E9 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9C92645818100C157E9 /* spark.png */; };
 		1044D9D22645819600C157E9 /* Missile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044D9D12645819600C157E9 /* Missile.swift */; };
+		1044D9D62645829800C157E9 /* chair.dae in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9D32645829700C157E9 /* chair.dae */; };
+		1044D9D72645829800C157E9 /* Neil Woo03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9D42645829700C157E9 /* Neil Woo03.jpg */; };
+		1044D9D82645829800C157E9 /* NeilFabricPlain008.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9D52645829800C157E9 /* NeilFabricPlain008.jpg */; };
+		1044D9DB264582AB00C157E9 /* FurnitureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044D9DA264582AB00C157E9 /* FurnitureApp.swift */; };
+		1044D9DE2645831100C157E9 /* ARADS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1044D9DD2645831100C157E9 /* ARADS.swift */; };
+		1044D9E52645832300C157E9 /* texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9DF2645832300C157E9 /* texture.jpg */; };
+		1044D9E62645832300C157E9 /* Phone_01.scn in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9E02645832300C157E9 /* Phone_01.scn */; };
+		1044D9E72645832300C157E9 /* Phone_01.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9E12645832300C157E9 /* Phone_01.mtl */; };
+		1044D9E82645832300C157E9 /* GooglePixel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9E22645832300C157E9 /* GooglePixel.png */; };
+		1044D9E92645832300C157E9 /* pixel-screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9E32645832300C157E9 /* pixel-screenshot.png */; };
+		1044D9EA2645832300C157E9 /* Google-Pixel-XL-Black-Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1044D9E42645832300C157E9 /* Google-Pixel-XL-Black-Back.png */; };
 		10513D0E2645760B006B53AB /* ArkitCoreMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10513D0D2645760B006B53AB /* ArkitCoreMLViewController.swift */; };
 		10513D112645763C006B53AB /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 10513D102645763C006B53AB /* Resnet50.mlmodel */; };
 		105B344C26457B98009A8315 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B344B26457B98009A8315 /* Plane.swift */; };
@@ -65,6 +76,17 @@
 		1044D9C82645818000C157E9 /* missile-1.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "missile-1.scn"; sourceTree = "<group>"; };
 		1044D9C92645818100C157E9 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		1044D9D12645819600C157E9 /* Missile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missile.swift; sourceTree = "<group>"; };
+		1044D9D32645829700C157E9 /* chair.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = chair.dae; sourceTree = "<group>"; };
+		1044D9D42645829700C157E9 /* Neil Woo03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Neil Woo03.jpg"; sourceTree = "<group>"; };
+		1044D9D52645829800C157E9 /* NeilFabricPlain008.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NeilFabricPlain008.jpg; sourceTree = "<group>"; };
+		1044D9DA264582AB00C157E9 /* FurnitureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureApp.swift; sourceTree = "<group>"; };
+		1044D9DD2645831100C157E9 /* ARADS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARADS.swift; sourceTree = "<group>"; };
+		1044D9DF2645832300C157E9 /* texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = texture.jpg; sourceTree = "<group>"; };
+		1044D9E02645832300C157E9 /* Phone_01.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Phone_01.scn; sourceTree = "<group>"; };
+		1044D9E12645832300C157E9 /* Phone_01.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Phone_01.mtl; sourceTree = "<group>"; };
+		1044D9E22645832300C157E9 /* GooglePixel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GooglePixel.png; sourceTree = "<group>"; };
+		1044D9E32645832300C157E9 /* pixel-screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pixel-screenshot.png"; sourceTree = "<group>"; };
+		1044D9E42645832300C157E9 /* Google-Pixel-XL-Black-Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Google-Pixel-XL-Black-Back.png"; sourceTree = "<group>"; };
 		10513D0D2645760B006B53AB /* ArkitCoreMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkitCoreMLViewController.swift; sourceTree = "<group>"; };
 		10513D102645763C006B53AB /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		105B344B26457B98009A8315 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
@@ -140,6 +162,8 @@
 		1035296C26445F5B00600F52 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1044D9DC2645830800C157E9 /* Arkit ADS */,
+				1044D9D9264582A000C157E9 /* Furniture App */,
 				1044D9C02645815700C157E9 /* Launch Missle */,
 				1044D9BD26457EA400C157E9 /* Downloading Model */,
 				105B345E26457DEF009A8315 /* Displaying Video */,
@@ -159,6 +183,15 @@
 		1035296D26445F6400600F52 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				1044D9E42645832300C157E9 /* Google-Pixel-XL-Black-Back.png */,
+				1044D9E22645832300C157E9 /* GooglePixel.png */,
+				1044D9E12645832300C157E9 /* Phone_01.mtl */,
+				1044D9E02645832300C157E9 /* Phone_01.scn */,
+				1044D9E32645832300C157E9 /* pixel-screenshot.png */,
+				1044D9DF2645832300C157E9 /* texture.jpg */,
+				1044D9D32645829700C157E9 /* chair.dae */,
+				1044D9D42645829700C157E9 /* Neil Woo03.jpg */,
+				1044D9D52645829800C157E9 /* NeilFabricPlain008.jpg */,
 				1044D9C72645818000C157E9 /* fire.scnp */,
 				1044D9C82645818000C157E9 /* missile-1.scn */,
 				1044D9C52645818000C157E9 /* missle-texture.png */,
@@ -200,6 +233,22 @@
 				1044D9C12645816A00C157E9 /* LaunchMissle.swift */,
 			);
 			path = "Launch Missle";
+			sourceTree = "<group>";
+		};
+		1044D9D9264582A000C157E9 /* Furniture App */ = {
+			isa = PBXGroup;
+			children = (
+				1044D9DA264582AB00C157E9 /* FurnitureApp.swift */,
+			);
+			path = "Furniture App";
+			sourceTree = "<group>";
+		};
+		1044D9DC2645830800C157E9 /* Arkit ADS */ = {
+			isa = PBXGroup;
+			children = (
+				1044D9DD2645831100C157E9 /* ARADS.swift */,
+			);
+			path = "Arkit ADS";
 			sourceTree = "<group>";
 		};
 		10513D0A26456D2E006B53AB /* Storyboards */ = {
@@ -335,14 +384,23 @@
 				1044D9CC2645818100C157E9 /* missle-texture.png in Resources */,
 				1044D9D02645818100C157E9 /* spark.png in Resources */,
 				1044D9CE2645818100C157E9 /* fire.scnp in Resources */,
+				1044D9D82645829800C157E9 /* NeilFabricPlain008.jpg in Resources */,
+				1044D9E92645832300C157E9 /* pixel-screenshot.png in Resources */,
+				1044D9E62645832300C157E9 /* Phone_01.scn in Resources */,
+				1044D9EA2645832300C157E9 /* Google-Pixel-XL-Black-Back.png in Resources */,
 				103529742644642E00600F52 /* Main.storyboard in Resources */,
 				10241A0226434A1300DCFD6F /* LaunchScreen.storyboard in Resources */,
 				1044D9CB2645818100C157E9 /* smoke.png in Resources */,
 				1044D9CF2645818100C157E9 /* missile-1.scn in Resources */,
+				1044D9D62645829800C157E9 /* chair.dae in Resources */,
 				105B346226457E1B009A8315 /* big_buck_bunny.mp4 in Resources */,
+				1044D9E72645832300C157E9 /* Phone_01.mtl in Resources */,
+				1044D9D72645829800C157E9 /* Neil Woo03.jpg in Resources */,
+				1044D9E52645832300C157E9 /* texture.jpg in Resources */,
 				1044D9CD2645818100C157E9 /* smoke.scnp in Resources */,
 				10339F4F26434F8700A84D5E /* art.scnassets in Resources */,
 				102419FF26434A1300DCFD6F /* Assets.xcassets in Resources */,
+				1044D9E82645832300C157E9 /* GooglePixel.png in Resources */,
 				1044D9CA2645818100C157E9 /* texture-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +420,7 @@
 				105B344F26457BF2009A8315 /* Portal.swift in Sources */,
 				10241A1226434CB900DCFD6F /* OverlayViewController.swift in Sources */,
 				10339F5226434FBF00A84D5E /* ApplyingForce.swift in Sources */,
+				1044D9DE2645831100C157E9 /* ARADS.swift in Sources */,
 				102419F826434A0D00DCFD6F /* SceneDelegate.swift in Sources */,
 				105B345326457C87009A8315 /* MBProgressHUD.m in Sources */,
 				10241A1026434C4700DCFD6F /* OverlayPlane.swift in Sources */,
@@ -372,6 +431,7 @@
 				1044D9D22645819600C157E9 /* Missile.swift in Sources */,
 				105B346026457E06009A8315 /* DisplayingVideo.swift in Sources */,
 				1044D9BF26457EB200C157E9 /* Downloading Model.swift in Sources */,
+				1044D9DB264582AB00C157E9 /* FurnitureApp.swift in Sources */,
 				105B344C26457B98009A8315 /* Plane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
